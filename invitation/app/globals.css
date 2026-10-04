@@ -49,6 +49,9 @@ fieldset{min-inline-size:0}select{max-width:100%}.date-venue.floral,.timeline.fl
 .curtain h2{font-size:25px}
 .curtain p{font-size:34px;line-height:1.3}
 .curtain .monogram{position:absolute;bottom:65px;left:50%;transform:translateX(-50%);margin:0}
+.curtain h2 span{display:block}
+.curtain p,.envelope-section>.script{font-family:Pinyon,cursive}
+.envelope-section>.script{color:var(--muted)}
 @media(max-width:700px){
  .curtain{padding:285px 0 145px}
  .curtain-copy{width:55%;max-width:320px;margin:0 auto}
