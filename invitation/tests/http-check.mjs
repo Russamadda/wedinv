@@ -1,0 +1,25 @@
+import assert from 'node:assert/strict';import {readFileSync,writeFileSync} from 'node:fs';import {randomUUID} from 'node:crypto';
+const origin='http://127.0.0.1:3001';let admin='';let guest='';const checks=[];
+async function call(path,method='GET',data,cookie=''){const r=await fetch(origin+path,{method,headers:{origin,...(data?{'Content-Type':'application/json'}:{}),...(cookie?{cookie}:{})},body:data?JSON.stringify(data):undefined});const text=await r.text();let body;try{body=JSON.parse(text)}catch{body=text}return {status:r.status,body,cookie:r.headers.get('set-cookie')?.split(';')[0]||''}}
+function check(name,result){assert.ok(result,name);checks.push(name)}
+check('admin list is unauthorized',(await call('/api/admin/invitations')).status===401);
+check('CSV is unauthorized',(await call('/api/admin/export')).status===401);
+check('guest requires private link',(await call('/api/invitation')).status===401);
+const login=await call('/api/admin/session','POST',{password:readFileSync('.data-demo-admin.txt','utf8')});check('real admin password login',login.status===200);admin=login.cookie;
+const create=await call('/api/admin/invitations','POST',{label:'FICTIONAL HTTP test',language:'nb',contact:'test@example.invalid',guests:[{name:'Anna Test',companion:false},{name:'Jonas Test',companion:false}]},admin);check('admin creates named couple',create.status===200);let inv=create.body.invitation;const token=create.body.link.split('#')[1];
+const entry=await call('/api/entry','POST',{token});check('private token exchanged for cookie',entry.status===200&&entry.cookie.includes('invitation='));guest=entry.cookie;
+const load=await call('/api/invitation','GET',undefined,guest);check('only linked household loads',load.body.id===inv.id&&load.body.guests.length===2);
+const response={version:0,requestId:randomUUID(),contact:'test@example.invalid',message:'Integration test',guests:inv.guests.map((g,i)=>({id:g.id,name:g.name,attendance:i?'no':'yes',diet:i?null:'none',dietDetails:'',hotel:i?null:'group',overnight:i?null:true}))};
+let save=await call('/api/invitation','PUT',response,guest);check('durable mixed response saves',save.status===200&&save.body.version===1);check('reopened response is saved',(await call('/api/invitation','GET',undefined,guest)).body.message==='Integration test');check('duplicate request has no extra version',(await call('/api/invitation','PUT',response,guest)).body.version===1);
+check('stale partner update conflicts',(await call('/api/invitation','PUT',{...response,requestId:randomUUID()},guest)).status===409);
+check('foreign guest rejected',(await call('/api/invitation','PUT',{...response,version:1,requestId:randomUUID(),guests:response.guests.map((g,i)=>i?{...g,id:randomUUID()}:g)},guest)).status===403);
+check('failed validation preserves saved response',(await call('/api/invitation','GET',undefined,guest)).body.version===1);
+check('editing saves next version',(await call('/api/invitation','PUT',{...response,version:1,requestId:randomUUID(),message:'Edited'},guest)).body.version===2);
+const exportData=await call('/api/admin/export?hotel=1','GET',undefined,admin);check('hotel CSV includes interested attendee',exportData.status===200&&exportData.body.includes('Anna Test')&&!exportData.body.includes('Jonas Test'));
+const badOrigin=await fetch(origin+'/api/invitation',{method:'PUT',headers:{origin:'https://evil.invalid',cookie:guest,'Content-Type':'application/json'},body:JSON.stringify(response)});check('cross-origin request rejected',badOrigin.status===403);
+const races=await Promise.all([call('/api/invitation','PUT',{...response,version:2,requestId:randomUUID(),message:'Edited'},guest),call('/api/invitation','PUT',{...response,version:2,requestId:randomUUID(),message:'Edited'},guest)]);check('simultaneous partners produce one save and one conflict',races.map(r=>r.status).sort().join(',')==='200,409');
+const rotate=await call('/api/admin/invitations','PATCH',{id:inv.id,version:3,action:'rotate'},admin);check('rotation works',rotate.status===200);check('old cookie invalidated by rotation',(await call('/api/invitation','GET',undefined,guest)).status===404);check('old token invalidated',(await call('/api/entry','POST',{token})).status===404);
+const newEntry=await call('/api/entry','POST',{token:rotate.body.link.split('#')[1]});guest=newEntry.cookie;check('new token opens existing response',(await call('/api/invitation','GET',undefined,guest)).body.message==='Edited');
+const revoke=await call('/api/admin/invitations','PATCH',{id:inv.id,version:4,action:'revoke'},admin);check('revocation works',revoke.status===200);check('revoked cookie denied',(await call('/api/invitation','GET',undefined,guest)).status===404);
+const logout=await call('/api/admin/session','DELETE',undefined,admin);check('sign out expires cookie',logout.status===200&&logout.cookie==='admin=');
+writeFileSync('docs/http-check-results.json',JSON.stringify({date:new Date().toISOString(),storage:'local SQLite demo',checks},null,2));console.log(checks.map(c=>'PASS '+c).join('\n'));

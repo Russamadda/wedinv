@@ -1,0 +1,678 @@
+[
+  {
+    "A": "YACgEZ1cb1Q",
+    "B": 0,
+    "C": "Arimo",
+    "D": [
+      {
+        "style": "REGULAR",
+        "weight": 400,
+        "files": [
+          {
+            "url": "_assets/fonts/834f64ff415fb8f4f5d92d8fd40507e9.woff",
+            "format": "WOFF",
+            "unicodeRanges": [],
+            "sizeBytes": 234332
+          }
+        ],
+        "subsettedFiles": [],
+        "scriptSubsetFiles": [],
+        "metadata": {
+          "head": {
+            "unitsPerEm": 2048,
+            "yMin": -621,
+            "yMax": 2007
+          },
+          "hhea": {
+            "ascender": 1854,
+            "descender": -434,
+            "lineGap": 67
+          },
+          "os2": {
+            "sTypoAscender": 1491,
+            "sTypoDescender": -431,
+            "sTypoLineGap": 307,
+            "usWinAscent": 1854,
+            "usWinDescent": 434,
+            "fsSelection": 64
+          }
+        }
+      },
+      {
+        "style": "BOLD",
+        "weight": 700,
+        "files": [
+          {
+            "url": "_assets/fonts/b07201e0e9fc452103c1c0345b0e7c1d.woff",
+            "format": "WOFF",
+            "unicodeRanges": [],
+            "sizeBytes": 234660
+          }
+        ],
+        "subsettedFiles": [],
+        "scriptSubsetFiles": [],
+        "metadata": {
+          "head": {
+            "unitsPerEm": 2048,
+            "yMin": -771,
+            "yMax": 2116
+          },
+          "hhea": {
+            "ascender": 1854,
+            "descender": -434,
+            "lineGap": 67
+          },
+          "os2": {
+            "sTypoAscender": 1491,
+            "sTypoDescender": -431,
+            "sTypoLineGap": 307,
+            "usWinAscent": 1854,
+            "usWinDescent": 434,
+            "fsSelection": 32
+          }
+        }
+      },
+      {
+        "style": "BOLD_ITALICS",
+        "weight": 700,
+        "files": [
+          {
+            "url": "_assets/fonts/0803f40e19a074a5520c2746a6ba3c95.woff",
+            "format": "WOFF",
+            "unicodeRanges": [],
+            "sizeBytes": 237588
+          }
+        ],
+        "subsettedFiles": [],
+        "scriptSubsetFiles": [],
+        "metadata": {
+          "head": {
+            "unitsPerEm": 2048,
+            "yMin": -771,
+            "yMax": 2109
+          },
+          "hhea": {
+            "ascender": 1854,
+            "descender": -434,
+            "lineGap": 67
+          },
+          "os2": {
+            "sTypoAscender": 1491,
+            "sTypoDescender": -431,
+            "sTypoLineGap": 307,
+            "usWinAscent": 1854,
+            "usWinDescent": 434,
+            "fsSelection": 33
+          }
+        }
+      },
+      {
+        "style": "ITALICS",
+        "weight": 400,
+        "files": [
+          {
+            "url": "_assets/fonts/711f50b3a8c00bb7e2e05ef85f982cb6.woff",
+            "format": "WOFF",
+            "unicodeRanges": [],
+            "sizeBytes": 240584
+          }
+        ],
+        "subsettedFiles": [],
+        "scriptSubsetFiles": [],
+        "metadata": {
+          "head": {
+            "unitsPerEm": 2048,
+            "yMin": -621,
+            "yMax": 2077
+          },
+          "hhea": {
+            "ascender": 1854,
+            "descender": -434,
+            "lineGap": 67
+          },
+          "os2": {
+            "sTypoAscender": 1491,
+            "sTypoDescender": -425,
+            "sTypoLineGap": 307,
+            "usWinAscent": 1854,
+            "usWinDescent": 434,
+            "fsSelection": 1
+          }
+        }
+      }
+    ],
+    "E": false
+  },
+  {
+    "A": "YAFdJg7KuRM",
+    "B": 0,
+    "C": "Cormorant SC",
+    "D": [
+      {
+        "style": "REGULAR",
+        "weight": 400,
+        "files": [
+          {
+            "url": "_assets/fonts/a445cd2ddaf7372e3304bd6a0e770a29.woff",
+            "format": "WOFF",
+            "unicodeRanges": [],
+            "sizeBytes": 242376
+          }
+        ],
+        "subsettedFiles": [],
+        "scriptSubsetFiles": [],
+        "metadata": {
+          "head": {
+            "unitsPerEm": 1000,
+            "yMin": -283,
+            "yMax": 927
+          },
+          "hhea": {
+            "ascender": 924,
+            "descender": -287,
+            "lineGap": 0
+          },
+          "os2": {
+            "sTypoAscender": 924,
+            "sTypoDescender": -287,
+            "sTypoLineGap": 0,
+            "usWinAscent": 937,
+            "usWinDescent": 283,
+            "fsSelection": 192
+          }
+        }
+      },
+      {
+        "style": "BOLD",
+        "weight": 700,
+        "files": [
+          {
+            "url": "_assets/fonts/d9e8f0b0ef7d7f960b56ed48be51bbe1.woff",
+            "format": "WOFF",
+            "unicodeRanges": [],
+            "sizeBytes": 241716
+          }
+        ],
+        "subsettedFiles": [],
+        "scriptSubsetFiles": [],
+        "metadata": {
+          "head": {
+            "unitsPerEm": 1000,
+            "yMin": -283,
+            "yMax": 938
+          },
+          "hhea": {
+            "ascender": 924,
+            "descender": -287,
+            "lineGap": 0
+          },
+          "os2": {
+            "sTypoAscender": 924,
+            "sTypoDescender": -287,
+            "sTypoLineGap": 0,
+            "usWinAscent": 937,
+            "usWinDescent": 283,
+            "fsSelection": 160
+          }
+        }
+      }
+    ],
+    "E": false
+  },
+  {
+    "A": "YAGNLEZcPkI",
+    "B": 0,
+    "C": "Shelley Script",
+    "D": [
+      {
+        "style": "REGULAR",
+        "weight": 400,
+        "files": [
+          {
+            "url": "_assets/fonts/2d101356f9cf078e899302fd24f74655.woff",
+            "format": "WOFF",
+            "unicodeRanges": [],
+            "sizeBytes": 143856
+          }
+        ],
+        "subsettedFiles": [],
+        "scriptSubsetFiles": [],
+        "metadata": {
+          "head": {
+            "unitsPerEm": 1000,
+            "yMin": -322,
+            "yMax": 1090
+          },
+          "hhea": {
+            "ascender": 700,
+            "descender": -300,
+            "lineGap": 200
+          },
+          "os2": {
+            "sTypoAscender": 700,
+            "sTypoDescender": -300,
+            "sTypoLineGap": 200,
+            "usWinAscent": 1090,
+            "usWinDescent": 300,
+            "fsSelection": 448
+          }
+        }
+      }
+    ],
+    "E": false
+  },
+  {
+    "A": "YAFdJhX-538",
+    "B": 0,
+    "C": "Cormorant Garamond",
+    "D": [
+      {
+        "style": "ITALICS",
+        "weight": 400,
+        "files": [
+          {
+            "url": "_assets/fonts/0ee045282d35237f2ff5ebb238351105.woff",
+            "format": "WOFF",
+            "unicodeRanges": [],
+            "sizeBytes": 203344
+          }
+        ],
+        "subsettedFiles": [],
+        "scriptSubsetFiles": [],
+        "metadata": {
+          "head": {
+            "unitsPerEm": 1000,
+            "yMin": -281,
+            "yMax": 905
+          },
+          "hhea": {
+            "ascender": 924,
+            "descender": -287,
+            "lineGap": 0
+          },
+          "os2": {
+            "sTypoAscender": 924,
+            "sTypoDescender": -287,
+            "sTypoLineGap": 0,
+            "usWinAscent": 937,
+            "usWinDescent": 283,
+            "fsSelection": 129
+          }
+        }
+      },
+      {
+        "style": "BOLD",
+        "weight": 700,
+        "files": [
+          {
+            "url": "_assets/fonts/2c01b110377d85fc02c1a5ee0a59e482.woff",
+            "format": "WOFF",
+            "unicodeRanges": [],
+            "sizeBytes": 278336
+          }
+        ],
+        "subsettedFiles": [],
+        "scriptSubsetFiles": [],
+        "metadata": {
+          "head": {
+            "unitsPerEm": 1000,
+            "yMin": -283,
+            "yMax": 938
+          },
+          "hhea": {
+            "ascender": 924,
+            "descender": -287,
+            "lineGap": 0
+          },
+          "os2": {
+            "sTypoAscender": 924,
+            "sTypoDescender": -287,
+            "sTypoLineGap": 0,
+            "usWinAscent": 937,
+            "usWinDescent": 283,
+            "fsSelection": 160
+          }
+        }
+      },
+      {
+        "style": "REGULAR",
+        "weight": 400,
+        "files": [
+          {
+            "url": "_assets/fonts/77fbf36c56a33ec9d32065083bba3023.woff",
+            "format": "WOFF",
+            "unicodeRanges": [],
+            "sizeBytes": 282600
+          }
+        ],
+        "subsettedFiles": [],
+        "scriptSubsetFiles": [],
+        "metadata": {
+          "head": {
+            "unitsPerEm": 1000,
+            "yMin": -283,
+            "yMax": 927
+          },
+          "hhea": {
+            "ascender": 924,
+            "descender": -287,
+            "lineGap": 0
+          },
+          "os2": {
+            "sTypoAscender": 924,
+            "sTypoDescender": -287,
+            "sTypoLineGap": 0,
+            "usWinAscent": 937,
+            "usWinDescent": 283,
+            "fsSelection": 192
+          }
+        }
+      },
+      {
+        "style": "BOLD_ITALICS",
+        "weight": 700,
+        "files": [
+          {
+            "url": "_assets/fonts/2883edd9004d7019bbfccbdb94743f24.woff",
+            "format": "WOFF",
+            "unicodeRanges": [],
+            "sizeBytes": 201992
+          }
+        ],
+        "subsettedFiles": [],
+        "scriptSubsetFiles": [],
+        "metadata": {
+          "head": {
+            "unitsPerEm": 1000,
+            "yMin": -281,
+            "yMax": 928
+          },
+          "hhea": {
+            "ascender": 924,
+            "descender": -287,
+            "lineGap": 0
+          },
+          "os2": {
+            "sTypoAscender": 924,
+            "sTypoDescender": -287,
+            "sTypoLineGap": 0,
+            "usWinAscent": 937,
+            "usWinDescent": 283,
+            "fsSelection": 161
+          }
+        }
+      }
+    ],
+    "E": false
+  },
+  {
+    "A": "YACgEQzTJgs",
+    "B": 0,
+    "C": "Pinyon Script",
+    "D": [
+      {
+        "style": "REGULAR",
+        "weight": 400,
+        "files": [
+          {
+            "url": "_assets/fonts/f121278586461e8065c2390a5f80c666.woff",
+            "format": "WOFF",
+            "unicodeRanges": [],
+            "sizeBytes": 33084
+          }
+        ],
+        "subsettedFiles": [],
+        "scriptSubsetFiles": [],
+        "metadata": {
+          "head": {
+            "unitsPerEm": 2048,
+            "yMin": -787,
+            "yMax": 1768
+          },
+          "hhea": {
+            "ascender": 1768,
+            "descender": -787,
+            "lineGap": 0
+          },
+          "os2": {
+            "sTypoAscender": 1768,
+            "sTypoDescender": -787,
+            "sTypoLineGap": 0,
+            "usWinAscent": 1768,
+            "usWinDescent": 787,
+            "fsSelection": 64
+          }
+        }
+      }
+    ],
+    "E": false
+  },
+  {
+    "A": "YAG5KfE49h8",
+    "B": 0,
+    "C": "Allison",
+    "D": [
+      {
+        "style": "REGULAR",
+        "weight": 400,
+        "files": [
+          {
+            "url": "_assets/fonts/cab6e30b74ba2cf993395c6384dd351a.woff",
+            "format": "WOFF",
+            "unicodeRanges": [],
+            "sizeBytes": 69576
+          }
+        ],
+        "subsettedFiles": [],
+        "scriptSubsetFiles": [],
+        "metadata": {
+          "head": {
+            "unitsPerEm": 1000,
+            "yMin": -396,
+            "yMax": 916
+          },
+          "hhea": {
+            "ascender": 890,
+            "descender": -380,
+            "lineGap": 0
+          },
+          "os2": {
+            "sTypoAscender": 890,
+            "sTypoDescender": -380,
+            "sTypoLineGap": 0,
+            "usWinAscent": 920,
+            "usWinDescent": 396,
+            "fsSelection": 192
+          }
+        }
+      }
+    ],
+    "E": false
+  },
+  {
+    "A": "YAFcfhlhK9c",
+    "B": 0,
+    "C": "Garamond",
+    "D": [
+      {
+        "style": "BOLD",
+        "weight": 700,
+        "files": [
+          {
+            "url": "_assets/fonts/b4cf877f9003566fe3956fceb7e5d293.woff",
+            "format": "WOFF",
+            "unicodeRanges": [],
+            "sizeBytes": 125860
+          }
+        ],
+        "subsettedFiles": [],
+        "scriptSubsetFiles": [],
+        "metadata": {
+          "head": {
+            "unitsPerEm": 2048,
+            "yMin": -762,
+            "yMax": 2040
+          },
+          "hhea": {
+            "ascender": 1765,
+            "descender": -539,
+            "lineGap": 0
+          },
+          "os2": {
+            "sTypoAscender": 1339,
+            "sTypoDescender": -539,
+            "sTypoLineGap": 313,
+            "usWinAscent": 1765,
+            "usWinDescent": 539,
+            "fsSelection": 32
+          }
+        }
+      },
+      {
+        "style": "REGULAR",
+        "weight": 400,
+        "files": [
+          {
+            "url": "_assets/fonts/09e0e30f141fdd73c7c60f30c32e1183.woff",
+            "format": "WOFF",
+            "unicodeRanges": [],
+            "sizeBytes": 126940
+          }
+        ],
+        "subsettedFiles": [],
+        "scriptSubsetFiles": [],
+        "metadata": {
+          "head": {
+            "unitsPerEm": 2048,
+            "yMin": -628,
+            "yMax": 2020
+          },
+          "hhea": {
+            "ascender": 1765,
+            "descender": -539,
+            "lineGap": 0
+          },
+          "os2": {
+            "sTypoAscender": 1339,
+            "sTypoDescender": -539,
+            "sTypoLineGap": 313,
+            "usWinAscent": 1765,
+            "usWinDescent": 539,
+            "fsSelection": 64
+          }
+        }
+      }
+    ],
+    "E": false
+  },
+  {
+    "A": "YAFdJtfMD6Y",
+    "B": 0,
+    "C": "EB Garamond",
+    "D": [
+      {
+        "style": "ITALICS",
+        "weight": 400,
+        "files": [
+          {
+            "url": "_assets/fonts/3c22d8c157a1f7b57c9f01471e30c7b3.woff",
+            "format": "WOFF",
+            "unicodeRanges": [],
+            "sizeBytes": 263352
+          }
+        ],
+        "subsettedFiles": [],
+        "scriptSubsetFiles": [],
+        "metadata": {
+          "head": {
+            "unitsPerEm": 1000,
+            "yMin": -337,
+            "yMax": 986
+          },
+          "hhea": {
+            "ascender": 1007,
+            "descender": -298,
+            "lineGap": 0
+          },
+          "os2": {
+            "sTypoAscender": 1007,
+            "sTypoDescender": -298,
+            "sTypoLineGap": 0,
+            "usWinAscent": 1047,
+            "usWinDescent": 390,
+            "fsSelection": 129
+          }
+        }
+      },
+      {
+        "style": "REGULAR",
+        "weight": 400,
+        "files": [
+          {
+            "url": "_assets/fonts/36d34153fb1dbadce4c04a04860cbb1e.woff",
+            "format": "WOFF",
+            "unicodeRanges": [],
+            "sizeBytes": 267328
+          }
+        ],
+        "subsettedFiles": [],
+        "scriptSubsetFiles": [],
+        "metadata": {
+          "head": {
+            "unitsPerEm": 1000,
+            "yMin": -324,
+            "yMax": 985
+          },
+          "hhea": {
+            "ascender": 1007,
+            "descender": -298,
+            "lineGap": 0
+          },
+          "os2": {
+            "sTypoAscender": 1007,
+            "sTypoDescender": -298,
+            "sTypoLineGap": 0,
+            "usWinAscent": 1047,
+            "usWinDescent": 390,
+            "fsSelection": 192
+          }
+        }
+      },
+      {
+        "style": "SEMI_BOLD",
+        "weight": 600,
+        "files": [
+          {
+            "url": "_assets/fonts/e510e4390a08accc5586649396a4e27f.woff",
+            "format": "WOFF",
+            "unicodeRanges": [],
+            "sizeBytes": 289724
+          }
+        ],
+        "subsettedFiles": [],
+        "scriptSubsetFiles": [],
+        "metadata": {
+          "head": {
+            "unitsPerEm": 1000,
+            "yMin": -324,
+            "yMax": 985
+          },
+          "hhea": {
+            "ascender": 1007,
+            "descender": -298,
+            "lineGap": 0
+          },
+          "os2": {
+            "sTypoAscender": 1007,
+            "sTypoDescender": -298,
+            "sTypoLineGap": 0,
+            "usWinAscent": 1047,
+            "usWinDescent": 390,
+            "fsSelection": 192
+          }
+        }
+      }
+    ],
+    "E": false
+  }
+]

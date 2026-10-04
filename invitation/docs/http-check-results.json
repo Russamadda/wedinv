@@ -1,0 +1,30 @@
+{
+  "date": "2026-09-29T16:09:48.237Z",
+  "storage": "local SQLite demo",
+  "checks": [
+    "admin list is unauthorized",
+    "CSV is unauthorized",
+    "guest requires private link",
+    "real admin password login",
+    "admin creates named couple",
+    "private token exchanged for cookie",
+    "only linked household loads",
+    "durable mixed response saves",
+    "reopened response is saved",
+    "duplicate request has no extra version",
+    "stale partner update conflicts",
+    "foreign guest rejected",
+    "failed validation preserves saved response",
+    "editing saves next version",
+    "hotel CSV includes interested attendee",
+    "cross-origin request rejected",
+    "simultaneous partners produce one save and one conflict",
+    "rotation works",
+    "old cookie invalidated by rotation",
+    "old token invalidated",
+    "new token opens existing response",
+    "revocation works",
+    "revoked cookie denied",
+    "sign out expires cookie"
+  ]
+}

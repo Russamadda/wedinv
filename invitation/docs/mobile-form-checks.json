@@ -1,0 +1,182 @@
+[
+  {
+    "width": 320,
+    "language": "English",
+    "fonts": [
+      "18px",
+      "18px",
+      "18px"
+    ],
+    "overflow": false
+  },
+  {
+    "width": 320,
+    "language": "Norsk",
+    "fonts": [
+      "18px",
+      "18px",
+      "18px"
+    ],
+    "overflow": false
+  },
+  {
+    "width": 320,
+    "language": "Lietuvių",
+    "fonts": [
+      "18px",
+      "18px",
+      "18px"
+    ],
+    "overflow": false
+  },
+  {
+    "width": 375,
+    "language": "English",
+    "fonts": [
+      "18px",
+      "18px",
+      "18px"
+    ],
+    "overflow": false
+  },
+  {
+    "width": 375,
+    "language": "Norsk",
+    "fonts": [
+      "18px",
+      "18px",
+      "18px"
+    ],
+    "overflow": false
+  },
+  {
+    "width": 375,
+    "language": "Lietuvių",
+    "fonts": [
+      "18px",
+      "18px",
+      "18px"
+    ],
+    "overflow": false
+  },
+  {
+    "width": 390,
+    "language": "English",
+    "fonts": [
+      "18px",
+      "18px",
+      "18px"
+    ],
+    "overflow": false
+  },
+  {
+    "width": 390,
+    "language": "Norsk",
+    "fonts": [
+      "18px",
+      "18px",
+      "18px"
+    ],
+    "overflow": false
+  },
+  {
+    "width": 390,
+    "language": "Lietuvių",
+    "fonts": [
+      "18px",
+      "18px",
+      "18px"
+    ],
+    "overflow": false
+  },
+  {
+    "width": 430,
+    "language": "English",
+    "fonts": [
+      "18px",
+      "18px",
+      "18px"
+    ],
+    "overflow": false
+  },
+  {
+    "width": 430,
+    "language": "Norsk",
+    "fonts": [
+      "18px",
+      "18px",
+      "18px"
+    ],
+    "overflow": false
+  },
+  {
+    "width": 430,
+    "language": "Lietuvių",
+    "fonts": [
+      "18px",
+      "18px",
+      "18px"
+    ],
+    "overflow": false
+  },
+  {
+    "width": 768,
+    "language": "English",
+    "fonts": [
+      "18px",
+      "18px",
+      "18px"
+    ],
+    "overflow": false
+  },
+  {
+    "width": 768,
+    "language": "Norsk",
+    "fonts": [
+      "18px",
+      "18px",
+      "18px"
+    ],
+    "overflow": false
+  },
+  {
+    "width": 768,
+    "language": "Lietuvių",
+    "fonts": [
+      "18px",
+      "18px",
+      "18px"
+    ],
+    "overflow": false
+  },
+  {
+    "width": 1440,
+    "language": "English",
+    "fonts": [
+      "18px",
+      "18px",
+      "18px"
+    ],
+    "overflow": false
+  },
+  {
+    "width": 1440,
+    "language": "Norsk",
+    "fonts": [
+      "18px",
+      "18px",
+      "18px"
+    ],
+    "overflow": false
+  },
+  {
+    "width": 1440,
+    "language": "Lietuvių",
+    "fonts": [
+      "18px",
+      "18px",
+      "18px"
+    ],
+    "overflow": false
+  }
+]

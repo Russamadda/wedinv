@@ -1,0 +1,92 @@
+[
+  {
+    "element": "horizontal-frame",
+    "source": "invitation/reference/Love Story_files/44ba489642c8d53a9f5543361a2ea9d6.png",
+    "production": "invitation/public/assets/horizontal-frame.png"
+  },
+  {
+    "element": "garden-background",
+    "source": "invitation/reference/Love Story_files/2b5578704ab2b6bdbbc30330dd644de9.jpg",
+    "production": "invitation/public/assets/garden-background.jpg"
+  },
+  {
+    "element": "oval-frame",
+    "source": "invitation/reference/Love Story_files/1d4253a86bb6c3398e870117f48002b3.png",
+    "production": "invitation/public/assets/oval-frame.png"
+  },
+  {
+    "element": "couple-early",
+    "source": "invitation/reference/Love Story_files/c30617b76d8200f2e07981cd2a4e9abd.jpg",
+    "production": "invitation/public/assets/couple-early.jpg"
+  },
+  {
+    "element": "rings-photo",
+    "source": "invitation/reference/Love Story_files/748be2ea8bd0e8d0a8bd431cc86fde68.jpg",
+    "production": "invitation/public/assets/rings-photo.jpg"
+  },
+  {
+    "element": "bouquet-photo",
+    "source": "invitation/reference/FAQ_files/2fa638982159cb968aa20711ecd03a1e.jpg",
+    "production": "invitation/public/assets/bouquet-photo.jpg"
+  },
+  {
+    "element": "tilted-frame",
+    "source": "invitation/reference/FAQ_files/b0afbd81344bfa67d629146438339531.png",
+    "production": "invitation/public/assets/tilted-frame.png"
+  },
+  {
+    "element": "floral-background",
+    "source": "invitation/reference/RSVP_files/163e154296ebce51e4a7bd89334ea956.jpg",
+    "production": "invitation/public/assets/floral-background.jpg"
+  },
+  {
+    "element": "swan-photo",
+    "source": "invitation/reference/Details_files/1767eaca44e1802c72decccf71a502b9.jpg",
+    "production": "invitation/public/assets/swan-photo.jpg"
+  },
+  {
+    "element": "lilies-background",
+    "source": "invitation/reference/Details_files/e3328646ad5a32bb1b5e2c101fae716a.jpg",
+    "production": "invitation/public/assets/lilies-background.jpg"
+  },
+  {
+    "element": "rectangle-frame-large",
+    "source": "invitation/reference/Details_files/7b0a070ab183ccd33b5d6b9912738ef6.png",
+    "production": "invitation/public/assets/rectangle-frame-large.png"
+  },
+  {
+    "element": "venue-photo",
+    "source": "invitation/reference/Details_files/85a0d2afb8c501ef9ac4f5495ae0693d.jpg",
+    "production": "invitation/public/assets/venue-photo.jpg"
+  },
+  {
+    "element": "blue-swans",
+    "source": "invitation/reference/Home_files/99bc3a7c45dda9902e20319de8bd611e.png",
+    "production": "invitation/public/assets/blue-swans.png"
+  },
+  {
+    "element": "hero-lilies",
+    "source": "invitation/reference/Home_files/428601f45b0e5f1470f310872a002da0.jpg",
+    "production": "invitation/public/assets/hero-lilies.jpg"
+  },
+  {
+    "element": "rectangle-frame",
+    "source": "invitation/reference/Home_files/7a29ab67d4e2ba86aa85a56c9d9fb912.png",
+    "production": "invitation/public/assets/rectangle-frame.png"
+  },
+  {
+    "element": "envelope",
+    "source": "invitation/reference/Home_files/4768aee7463b13feaab874e208363d39.png",
+    "production": "invitation/public/assets/envelope.png"
+  },
+  {
+    "element": "couple-wedding",
+    "source": "invitation/reference/Home_files/47d8922b6c2080ad50e320b99b6e7ad6.jpg",
+    "production": "invitation/public/assets/couple-wedding.jpg"
+  },
+  {
+    "element": "curtains",
+    "source": "invitation/reference/Home_files/50feaa0f94d1c417fabaad83832e7fde.png",
+    "production": "invitation/public/assets/curtains.png"
+  }
+]
